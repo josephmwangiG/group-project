@@ -1,0 +1,94 @@
+#upload{
+    display: none;
+}
+
+.label label{
+    width: 180px;
+    color:white;
+    font-size: 18px;
+    text-align: left;
+    text-transform: uppercase;
+    margin:0px auto;
+    font-weight: bold;
+}
+.label{
+    width:300px;
+    background-color: rgb(22, 219, 186);
+    height:50px;
+    margin:10px 0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:25px;
+}
+form{
+    width: 80%;
+    margin:0 auto;
+}
+.btn{
+    border: none;
+    outline: none;
+    color: #fff;
+    width: 300px;
+    font-weight: bold;
+    padding:5px 10px;
+    text-transform: uppercase;
+    height:30px;
+    font-size: 16px;
+    background-color: rgb(22, 134, 73);
+    margin-top: 20px;
+
+}
+.description{
+    height:fit-content;
+    margin:0px auto;
+}
+.description-textarea{
+    width:98%;
+    min-height:100px;
+    height:fit-content;
+    padding:10px 5px;
+    margin:10px auto;
+    resize:none;
+    border:none;
+    border:1px solid grey;
+    border-radius:5px;
+    outline:none;
+    
+
+}
+.description label{
+    float:left;
+    margin: 10px 0;
+}
+.container{
+    width:80%;
+    margin:0px auto;
+    text-align:left;
+}
+.container form{
+    width:70%;
+    text-align:left;
+}
+.submit{
+    width:300px;
+    text-align:left;
+    margin:20px 0;
+}
+
+form legend{
+    text-align: left;
+    color: rgb(6, 179, 83);
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+.info{
+    width: 60%;
+    background-color: rgb(178, 224, 224);
+    color: dodgerblue;
+    font-size: 16px;
+    padding: 10px 3px;
+    height: 40px;
+    font-weight: bold;
+    margin: 5px auto;
+}

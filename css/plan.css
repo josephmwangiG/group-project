@@ -1,0 +1,80 @@
+/* weather */
+
+
+.container{
+    width: 100%;
+    min-height: 90vh;
+    background-color: rgb(70, 180, 70);
+    color: white;
+    padding-bottom: 60px;
+}
+.inner{
+    width: 80%;
+    margin: 0 auto;
+}
+select{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #000;
+    width: 200px;
+    height: 40px;
+    margin: 20px 0;
+    letter-spacing: 1px;
+    padding-left: 20px;
+}
+.inner h3{
+    padding: 20px 0;
+    font-weight: bold;
+    font-size: x-large;
+    color: white;
+}
+.inner p{
+    padding-bottom: 20px;
+}
+legend{
+    padding: 10px 0;
+    font-weight: bold;
+}
+
+.inner button{
+    border: white solid 2px;
+    border-radius: 4px;
+    background: none;
+    color: white;
+    font-weight: bold;
+    width: 100px;
+    height: 30px;
+    font-size: larger;
+    margin-top: 20px;
+    outline: none;
+
+}
+.inner button:hover{
+    background-color: rgb(96, 204, 96);
+}
+
+
+/* constituency page */
+
+.table{
+    width: 100%;
+    border: rgb(149, 192, 149) solid 1px;
+    padding: 10px 5px;
+}
+thead{
+    text-align: left;
+    padding: 5px 0;
+    margin-left: 0%;
+    color: blue !important;
+    border-bottom: solid black 1px;
+}
+
+tr{
+    border: teal solid 1px;
+    padding: 6px 0;
+    margin: 0px;
+}
+td{
+    border-bottom: teal solid 1px;
+    padding: 10px 0;
+}

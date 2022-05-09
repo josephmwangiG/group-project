@@ -1,0 +1,54 @@
+
+body{
+    background-image: url("../images/GS.jpg");
+    background-position: center;
+    background: cover;
+}
+
+#services{
+    min-height: 30vh ;
+    width: 90%;
+    margin: 0px auto;
+    color: white;
+}
+#buy{
+    width: 33.3333%;
+    float: left;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#sell{
+    width: 33.3333%;
+    float: left;
+    height:30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#statistics{
+    width: 33.3333%;
+    float: left;
+    display: flex;
+    height: 30vh;
+    align-items: center;
+    justify-content: center;
+}
+#others{
+    width: 90%;
+    margin: 0px auto;
+    height:30vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#services h3{
+    border: white 1px solid;
+    padding: 5px 10px;
+}
+#services a{
+    text-decoration: none;
+    color: white;
+}

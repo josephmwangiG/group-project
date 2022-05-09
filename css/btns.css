@@ -1,0 +1,17 @@
+.buttons{
+    height: 50px;
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.buttons button{
+    height: 30px;
+    margin: 8px auto;
+    border: none;
+    width: 80px;
+    background-color: rgb(50, 206, 120);
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+}

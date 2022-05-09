@@ -1,0 +1,18 @@
+.container{
+    width: 100%;
+    min-height: 90vh;
+    background-color: rgb(70, 180, 70);
+    color: white;
+    padding-bottom: 60px;
+}
+.inner{
+    width: 80%;
+    margin: 0 auto;
+}
+.inner h3{
+    padding: 20px 0;
+}
+.inner p{
+    padding: 5px 2px;
+    color: rgb(226, 220, 220);
+}

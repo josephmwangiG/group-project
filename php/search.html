@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>search</title>
+</head>
+<body>
+        <input type="search" name="search" id="search">
+        <button onclick="search()">Search</button>
+        <p id="result"></p>
+    <script>
+        function search(){
+            var search_item = document.getElementById('search').value;
+            
+            var re_maize = /maize|mais/;
+            var re_beans = /bins|beans|bean/;
+            var re_banana = /banana|bananas/;
+
+            var results_maize = search_item.match(re_maize);
+            var results_beans = search_item.match(re_beans);
+            var results_banana = search_item.match(re_banana);
+
+            if(search_item == ""){
+                    document.getElementById('result').innerHTML = "No search item";
+            }else{
+                if(results_maize){
+                document.getElementById('result').innerHTML = "results for <a href=''>" + search_item+"</a>";
+                }
+                else if(results_beans){
+                document.getElementById('result').innerHTML = "results for " + search_item;
+                }
+                else if(results_banana){
+                document.getElementById('result').innerHTML = "results for " + search_item;
+                }
+                else{
+                    document.getElementById('result').innerHTML = "No results found";
+
+                }
+            }
+
+
+        }
+        
+    </script>
+</body>
+</html>

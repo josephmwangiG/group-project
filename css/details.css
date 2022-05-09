@@ -1,0 +1,47 @@
+.container{
+    width: 100%;
+    min-height: 90vh;
+    background-color: rgb(70, 180, 70);
+    color: white;
+    padding-bottom: 60px;
+}
+.inner{
+    width: 50%;
+    margin: 0 auto;
+}
+.requests{
+    font-size: 1.2rem;
+    color: #ccc;
+    padding-top: 12px;
+    font-weight: bold;
+}
+table{
+    width: 100%;
+    border: rgb(149, 192, 149) solid 1px;
+    padding: 10px 5px;
+}
+
+tr{
+    border: teal solid 1px;
+    padding: 6px 0;
+    margin: 0px;
+}
+td{
+    border-bottom: teal solid 1px;
+    padding: 10px 0;
+}
+.infor{
+color: black;
+font-size: 16px;
+letter-spacing: 1px;
+}
+.contacts{
+    margin:10px 0;
+}
+thead{
+    text-align: left;
+    padding: 5px 0;
+    margin-left: 0%;
+    color: blue !important;
+    border-bottom: solid black 1px;
+}

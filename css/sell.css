@@ -1,0 +1,108 @@
+#form{
+    width: 50%;
+    text-align: left;
+    margin: 0px auto;
+    position: relative;
+}
+#form h3{
+    padding: 20px 0;
+    float: left;
+    width: 50%;
+    position: absolute;
+    left: 0;
+    text-align: left;
+}
+.head, .link{
+    width:50%;
+    float: left;
+}
+.link a{
+    font-size: 1.5rem;
+    color: dodgerblue;
+    text-align: left;
+}
+form{
+    position: absolute;
+    top: 100px;
+}
+.link{
+    margin-top: 36px;
+    position: absolute;
+    left: 50%;
+}
+#input_group{
+    margin: 4px auto;
+    width: 100%;
+    float: left;
+}
+#input_group input{
+    border: none;
+    width: 100%;
+    max-width: 300px;
+    outline: none;
+    font-size: 16px;
+    padding-bottom: 2px;
+    letter-spacing: 1px;
+    border-bottom: solid black 1px;
+}
+.label{
+    width:40%;
+    float: left;
+    text-align: left;
+    margin: 10px 0;
+}
+#form h3{
+    text-align: left;
+    color: dodgerblue;
+}
+.input{
+    width:60%;
+    float: left;
+    margin: 10px 0;
+}
+#input_group input:focus{
+    border-bottom: solid dodgerblue 1px;
+
+}
+.input select{    
+    width: 100%;
+    max-width: 300px;
+    outline: none;
+    font-size: 16px;
+    height: 30px;
+}
+.input select:focus{
+    border-color: aqua;
+}
+#input_group label{
+    text-align: left;
+    font-size: 15px;
+    margin: 5px 0px;
+}
+
+.btn:hover{
+    background-color: rgb(78, 216, 147);
+}
+.btn{
+    border: none;
+    outline: none;
+    color: #fff;
+    width: 100px;
+    font-weight: bold;
+    float: left;
+    height:25px;
+    padding: 3px;
+    background-color:rgb(6, 185, 96);
+}
+
+.input-group{
+    margin-bottom: 20px;
+}
+#or_login{
+    float: left;
+    margin: 0 40px;
+}
+.buttons{
+    float: left;
+    margin-top: 20px;
+}

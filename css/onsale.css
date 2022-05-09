@@ -1,0 +1,63 @@
+.good{
+    width: 100%;
+    height: fit-content;
+    margin: 10px 0;
+    color: #444;
+}
+.good h4{
+    color: #222;
+}
+#commodity{
+    width: 50%;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 238, 255);
+    margin: 0 auto;
+}
+#image{
+    width: 80%;
+    margin: 40px auto;
+    height: 50vh;
+    overflow: hidden;
+}
+#image img{
+    width: 100%;
+    border-radius: 2px;
+    max-height: 50vh;
+}
+.number{
+    margin-left: 10%;
+
+}
+.seller{
+    margin: 10px 0;
+}
+.description{
+    margin: 10px 0;
+}
+strong{
+    padding: 15px 0;
+}
+.back{
+    margin-bottom: 20px;
+}
+.back a{
+    color: dodgerblue;
+    text-decoration: none;
+}
+.btn{
+    width: 40%;
+    background-color: rgb(6, 253, 130);
+    color: black;
+    letter-spacing: 1px;
+    padding: 5px;
+    font-weight: bold;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    margin-bottom: 30px;
+    outline: none;
+}
+.details{
+    width: 80%;
+    margin: 0 auto;
+}

@@ -1,0 +1,494 @@
+body{
+    font-family: sans-serif;
+    padding: 0%;
+    overflow-x: hidden;
+    margin: 0%;
+}
+/* get started */
+.image{
+    margin-top: 0;
+    width: 100%;
+    background-image: url(../images/bg.jpg);
+    background-position:center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 540px;
+    position: relative;
+    background-size: cover;
+}
+.bg{
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    background-color:rgba(0,0,0,.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+}
+.getstarted{
+    position: absolute;
+    top: 140px;
+    background-color: rgba(0,0,0,.4);
+    height: 400px;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.getstarted .content{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+.knowledge{
+    padding: 10px 0;
+    font-size: 1.5rem;
+    font-style: italic;
+
+}
+.easy{
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.border{
+    height: 3px;
+    width: 10%;
+    background-color: green;
+    margin: 10px auto 20px;
+}
+.content .text{
+    margin: 20px 0;
+    color: yellow;
+
+}
+.btn{
+    width: 200px;
+    height: 40px;
+    background:none;
+    outline: none;
+    border-radius: 20px;
+    border: white solid 2px;
+    color: white;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.btn:hover{
+    background-color: #fff;
+    color: black;
+    border: none;
+    
+}
+/* navigation */
+header{
+    height: 3rem;
+    width:100%;
+    background-color: #444;
+}
+
+.navigation{
+    width: 80%;
+    margin: 0 10%;
+    }
+.navigation .brand{
+    width:40%;
+    float: left;
+    color: white;
+}
+.brand brand{
+    font-size: 2rem;
+    margin-top: 1.8rem;
+    text-transform: uppercase;
+
+}
+.underline{
+    width: 80%;
+    position: absolute;
+    top: 6rem;
+    left :10%;
+    border-top: oldlace solid 3px;
+    margin: 0 auto;
+}
+.nav{
+    width: 30%;
+    float: left;
+    text-align: right;
+}
+
+.nav .item{
+    float:right;
+    width: 25%;
+    display: flex;
+    height: 3rem;
+    align-items: center;
+    justify-content: center;
+}   
+.nav .item .link{
+    text-decoration: none;   
+    font-size: 1 rem;
+    color: #ccc; 
+    font-weight: bolder;
+}   
+.nav .item .link:hover{   
+    font-size: 1.2 rem;
+    color: dodgerblue; 
+
+}
+.nav .item:hover{
+    background-color: rgba(0,0,0,.2);
+}
+
+/* options */
+
+.options{
+    width: 80%;
+    margin: 50px auto;
+    display: block;
+}
+.options .one, .options .two, .options .three{
+    width: 30%;
+    text-align: center;
+    float: left;
+}
+.options .two{
+    margin: 0 5%;
+}
+.options::after{
+    content:".";
+    clear: both;
+    color: white;
+}
+.one button, .two button, .three button{
+    width: 200px;
+    height: 40px;
+    background-color: forestgreen;
+    outline: none;
+    border-radius: 20px;
+    border: white solid 2px;
+    color: white;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.nav span a{
+    color:white;
+    text-decoration: none;
+    padding-top: 20px;
+}
+.two button{
+    background-color: darkturquoise;
+
+}
+.three button{
+    background-color: darksalmon;
+}
+ 
+/* footer */
+.footer{
+    width: 100%;
+    display: block;
+    background-color: #333;
+    height: 280px;
+}
+.footer .content{
+    width: 80%;
+    margin: 0 auto;
+    color: #ccc;
+}
+
+.footer .about, .footer .contacts, .footer .help{
+    width: 30%;
+    float: left;
+    text-align: center;
+}
+.footer .contacts{
+    margin: 0 5%;
+}
+.socket{
+    width: 100%;
+    border-top: rgb(240, 227, 227) solid 1px;
+    float: left;
+    margin-top: 40px;
+}
+
+.copyright{
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    color: #bbb;
+    float: left;
+}
+.share{
+    background-image: url(../images/GS1.jpg);
+    width: 100%;
+    height: 60vh;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.share .container{
+    width: 100%;
+    margin: 0 auto;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    background-color:rgba(0,0,0,.2);
+}
+.heading{
+    width: 100%;
+    margin-top: 20vh;
+}
+.share button{
+    width: 200px;
+    height: 40px;
+    background:none;
+    outline: none;
+    border-radius: 20px;
+    border: white solid 2px;
+    color: white;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+.share button:hover{
+    background-color: white;
+    color: black;
+
+}
+.share .inner{
+    color: white;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    height: 100%;
+}
+/* authors */
+.heading-authors{
+    width: 100%;
+    text-align: center;
+}
+.heading-authors h1{
+    text-align: center;
+}
+.outer{
+    position: relative;
+    height: 50vh;
+    width: 100%;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+.authors{
+    width: 150%;
+    position: absolute;
+    left: 0;
+    height: 50vh;
+}
+.authors .h2{
+    text-align: center;
+}
+.authors .author1, .authors .author2, .authors .author3, .authors .author4, .authors .author5{
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+cite{
+    width: 50%;
+    position: absolute;
+    color: grey;
+    right: 40px;
+    padding-left: 50px;
+}
+.minus{
+    font-size: larger;
+}
+.authors .img{
+    width:140px;
+    height: 140px;
+    overflow: hidden;
+    margin: 2px auto;
+    border-radius: 50%;
+}
+.img img{
+    width: 110%;
+    height: 100%;
+}
+.authors .text{
+    width: 90%;
+    text-align: center;
+    margin: 20px auto;
+}
+.slide{
+    width: 20%;
+    float: left;
+    height: 50vh;
+}
+
+
+
+@media (max-width:780px){
+    .image{
+        height: 640px;
+    }
+    .bg{
+        height: 200px;
+        padding: 20px 0px;
+    }
+    header{
+        height: 15rem;
+        background: none;
+    }
+    .navigation{
+        width: 90%;
+        margin: 0 5%; 
+        color: white;
+        height: 150px;   
+    }
+    .navigation .brand{
+        width:100%;
+        height:100px;
+        color: white;
+    }
+    .brand brand{
+        font-size: 1.5rem;  
+    }
+    .brand{
+        display: flex;
+        height: 2rem;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav{
+        position: absolute;
+        width: 100%;
+        top: 3rem;
+    }
+    .underline{
+        border: none;
+    }
+    .nav .item{
+        width: 100%;
+        margin-bottom: 10px;
+        z-index: 12;
+    }   
+    .getstarted{
+        top: 340px;
+        position: absolute;
+
+    }  
+    /* get started */
+.image{
+    margin-top: 0;
+    width: 100%;
+    background-position:center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 540px;
+    position: relative;
+    background-size: cover;
+}
+.bg{
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    background-color:rgba(0,0,0,.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+}
+.getstarted{
+    position: absolute;
+    top: 140px;
+    background-color: rgba(0,0,0,.4);
+    height: 400px;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.getstarted .content{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+.knowledge{
+    padding: 10px 0;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+
+}
+.easy{
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.border{
+    height: 3px;
+    width: 10%;
+    background-color: green;
+    margin: 10px auto 20px;
+}
+.btn{
+    width: 150px;
+    height: 40px;
+}
+/* options */
+
+.options{
+    width: 90%;
+    margin: 30px auto;
+}
+.options .one, .options .two, .options .three{
+    width: 100%;
+    text-align: center;
+}
+.options .two{
+    margin: 0;
+}  
+/* footer */
+.footer{
+    width: 100%;
+    display: block;
+    background-color: #333;
+    min-height: 600px;
+}
+.footer .content{
+    width: 90%;
+    margin: 0 auto;
+    height: fit-content;
+    background: #000;
+    color: #ccc;
+}
+
+.footer .about, .footer .contacts, .footer .help{
+    width: 100%;
+}
+.footer .contacts{
+    margin: 0 ;
+}
+
+}
+
+/* animations */
+
+@keyframes slide{
+    0%{
+        left: 5%;
+    }
+    25%{
+        left: -29.3333%;
+    }
+    50%{
+        left: -59.77777%;
+    }
+    75%{
+        left: -100%;
+    }  
+    100%{
+        left: -5%;
+    }      
+    
+}

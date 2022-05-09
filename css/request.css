@@ -1,0 +1,79 @@
+.form{
+    width: 50%;
+    margin: 0 auto;
+}
+.form h3{
+    margin: 20px 0;
+    color: dodgerblue;
+    font-size: larger;
+    text-decoration: underline;
+}
+.form .label{
+    width:35%;
+    float:left;
+    margin-top: 20px;
+}
+.form .input{
+    width: 65%;
+    margin-top: 20px;
+    float:left;
+}
+.form .input input, .form .input select{
+    width: 100%;
+    border: none;
+    border: rgb(87, 85, 85) solid 2px;
+    height: 30px;
+    padding: 3px;
+    outline: none;
+    border-radius: 3px;
+ }
+ .form .input textarea{
+     width: 100%;
+     border: none;
+     border: rgb(87, 85, 85) solid 2px;
+     height: 160px;
+     resize: none;
+     padding: 3px;
+     outline: none;
+     border-radius: 3px;
+  }
+
+.form-footer{
+    width: 100%;
+    margin-bottom: 60px;
+}
+.form-footer .or_login{
+    margin-left: 20px;
+    color:green;
+}
+
+
+.form .input textarea:focus, .form .input select:focus{
+border: dodgerblue solid 2px;
+
+}
+.form .input input:focus{
+    border: dodgerblue solid 2px;
+    border-radius: 4px;
+}
+.form-footer button{
+    margin-left: 35%;
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 160px;
+    height: 30px;
+    background-color: rgb(58, 177, 137);
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5px 0px;
+    border: none;
+    outline: none;
+
+}
+.form-footer a{
+    text-decoration: none;
+    color: green;
+    margin-left: 20px;
+}

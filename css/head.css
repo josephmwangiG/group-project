@@ -1,0 +1,78 @@
+*{
+    font-family:Helvetica;
+    margin: 0px;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+#header{
+    width: 100%;
+    height: 100px;
+    background-color: #333;
+
+}
+#header #navigation a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+#navigation{
+    width: 80%;
+    margin:0px auto;
+}
+#login{
+    position: absolute;
+    line-height:100px;
+    right: 5%;
+    color:white;
+}
+#header #navigation a:hover{
+    color:dodgerblue;
+    cursor: pointer;
+    transform: ease-in;
+}
+
+.nav{
+    width: 130px;
+    float:left;
+    color: white;
+    z-index: 1111;
+}
+::-webkit-scrollbar{
+    border:none;
+    height: 6px;
+    width:10px;
+    margin: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background: rgb(143, 167, 138);
+    border-radius: 3px;
+}
+    
+.nav-services li{
+    list-style: none;
+    display: none;
+    z-index: 1111;
+}
+.nav-services:hover li{
+    display: block;
+    height: 30px;
+}
+.nav-services{
+    padding-top: 30px;
+    position: absolute;
+    background-color: #333;
+    z-index: 1111;
+}
+.nav-link{
+    margin: 6px 0px;
+    padding-left: 3px;
+    width: 124px;
+    border-bottom: 1px solid rgb(128, 62, 62);
+}
+.homes{
+    padding-top: 30px;
+}
+

@@ -1,0 +1,85 @@
+textarea{
+    border:none;
+    width: 80%;
+    min-width: 200px;
+    outline: none;
+    resize: none;
+    height: 30px;
+    margin-top: 20px;
+    overflow: hidden;
+    border-bottom: 1px solid black;
+}
+button{
+    width:100px;
+    height:30px;
+    position: relative;
+    margin-left: 5px;
+    bottom: 12px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    background-color: dodgerblue;
+    margin-bottom: 10px;
+}
+#comment_form{
+    width: 98%;
+    position: relative;
+    margin: 0px auto;
+}
+#comments_body{
+    width: 98%;
+    margin: 0px auto;
+}
+#footer{
+    /* position: fixed;
+    bottom: 0px; */
+    min-height: 30vh;
+    background-color: #ccc;
+    width: 100%;
+    color:#333;
+}
+#contacts_title{
+    line-height: 60px;
+
+    
+}
+#footer #contacts{
+    width:30%;
+    text-align: center;
+    float: left;
+}
+#footer #contacts p{
+    font-size: 11px;
+    line-height: 20px;
+}
+#about_title{
+    line-height: 60px;
+
+    
+}
+#footer #about{
+    width:30%;
+    float: left;
+    margin:0px 4.5%;
+    text-align: center;
+}
+#footer #about p{
+    font-size: 11px;
+    line-height: 20px;
+}
+#help_title{
+    line-height: 60px;
+
+    
+}
+#footer #help{
+    width:30%;
+    float: left;
+    text-align: center;
+}
+#footer #help p{
+    font-size: 11px;
+    line-height: 20px;
+}
+

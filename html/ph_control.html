@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ph_control | Lima</title>
+    <script src="../js/ph_control.js"></script>
+    <link rel="stylesheet" href="../css/ph_css.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+
+            <div class="brand">
+                <span class="name">LIMA</span>
+            </div>
+            <div class="home">
+                <a href="../php/index.php">HOME</a>
+            </div>
+        </div>
+    </header>
+    <div class="main">
+        <div class="container">
+            <div class="form" >
+            <h3>Soil pH control</h3>
+                <form action="#" method="POST" onsubmit="return pH_scale()">
+                    <legend>Fill the following fields</legend>
+                    <div class="input-group">
+                        <label for="desired">Desired pH scale:</label>
+                        <input type="number" name="desired_scale" id="desired" max="14" min="1"><br>
+
+                    </div>
+                    <div class="input-group">
+                        <label for="current">Current pH scale:</label>
+                        <input type="number" name="current_scale" id="current" max="14" min="1"><br>
+                    </div>
+                    <div class="input">
+                        <button type="submit">Check Measure</button>
+                    </div>
+                </form>
+            </div>
+            <div class="measure">
+                <p id="measure"></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

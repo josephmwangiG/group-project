@@ -1,0 +1,143 @@
+#form{
+    width: 50%;
+    text-align: center;
+    margin: 0px auto;
+}
+#form h3{
+    line-height: 60px;
+}
+#input_group{
+    margin: 30px auto;
+    width: 100%;
+}
+#form h3{
+    color:rgb(34, 165, 99);
+    text-align: left;
+}
+.input-validation{
+    width:60%;
+    float: left;
+    margin: 10px 0;
+    
+}.label{
+    width: 40%;
+    float: left;
+    margin: 10px 0;
+    text-align: left;
+}
+#input_group .input-validation input{
+    border: none;
+    border:skyblue solid 1px;
+    width: 100%;
+    outline: none;
+    height: 30px;
+    font-size: 16px;
+    border-radius: 3px;
+    letter-spacing: 1px;
+}
+#input_group input:focus{
+    border: solid dodgerblue 2px;
+
+}
+.label label{
+    width: 100%;
+    text-align: left;
+    font-size: 15px;
+    margin: 5px 0px;
+}
+
+button{
+    border: none;
+    outline: none;
+    color: #fff;
+    width: 150px;
+    font-weight: bold;
+    padding:5px 10px;
+    text-transform: uppercase;
+    float: left;
+    height:30px;
+    font-size: 16px;
+    background-color: rgb(22, 134, 73);
+    margin-bottom: 20px;
+}
+button:hover{
+    color: #333;
+    background-color: rgb(109, 202, 151);
+}
+#or_login{
+    float: left;
+    margin-left: 20px;
+}
+
+
+.input-validation input{
+    width:100%;    
+}
+.input-validation .validation{
+    margin: 5px 0px;
+    height: fit-content;
+    width: 100%;
+    color: rgb(248, 34, 34);
+    font-size: small;
+    background-color: rgb(241, 199, 199);
+    
+}
+.float-clear::after{
+    content: "";
+    clear: both;
+}
+
+.form-footer{
+    margin:15px 0 0;
+    float: left;
+    width: 100%;
+    padding-top: 20px;
+    height: 40px;
+}
+.form-footer a{
+    color: green;
+    padding-left: 20px;
+    margin-top: 15px;
+    text-decoration: none;
+}
+.forget{
+    width: 100%;
+    float: left;
+    text-align: left;
+
+
+}
+.forget a{
+    color:dodgerblue;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.infors{
+    width: 100%;
+    float: left;
+    font-size: 14px;
+    text-align: left;
+    margin:3px auto;
+    color:dodgerblue;
+    font-weight: bold;
+    background: rgb(155, 242, 245);
+}
+
+
+
+@media (max-width:768px){
+    .input-validation{
+        width:100%;
+        
+    }.label{
+        width: 100%;
+    }
+    #or_login{
+        margin-left: 0px;
+    }
+
+}
+
+
+
